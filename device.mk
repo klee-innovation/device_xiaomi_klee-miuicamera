@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Default-app permisson
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/miuicamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/miuicamera-permissions.xml
+
 # Priv-app permission
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-miuicamera.xml
