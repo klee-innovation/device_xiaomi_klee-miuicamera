@@ -12632,5 +12632,50 @@ index 82fdf194..aad44bae 100644
      iget-object p0, p0, Lcom/android/camera/module/Camera2Module;->mMultiCap:Lv6/t;
  
 -- 
+diff --git a/smali/b3/a.smali b/smali/b3/a.smali
+index 744e73b0..08cb0c90 100644
+--- a/smali/b3/a.smali
++++ b/smali/b3/a.smali
+@@ -279,7 +279,7 @@
+     goto :goto_2
+ 
+     :cond_9
+-    move v2, v3
++    move v2, v4
+ 
+     goto :goto_2
+ 
+diff --git a/smali/b3/b.smali b/smali/b3/b.smali
+index 213fa2b0..085c8668 100644
+--- a/smali/b3/b.smali
++++ b/smali/b3/b.smali
+@@ -21,6 +21,8 @@
+ 
+     check-cast v0, Lb3/z;
+ 
++    iget v2, v0, Lb3/y;->b:I
++
+     iget-boolean v0, v0, Lb3/z;->e:Z
+ 
+     const/4 v1, 0x0
+@@ -40,10 +42,17 @@
+ 
+     if-eqz p1, :cond_1
+ 
++    if-eqz v2, :cond_vb
++
+     const p1, 0x8009
+ 
+     goto :goto_0
+ 
++    :cond_vb
++    const p1, 0x8004
++
++    goto :goto_0
++
+     :cond_1
+     sget-boolean p1, Lqc/b;->i:Z
+ 
+
 2.43.0
 
