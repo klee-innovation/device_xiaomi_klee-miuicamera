@@ -737,3 +737,7 @@ odm/etc/camera/xiaomi/configs/tag/config.json
 odm/etc/camera/xiaomi/configs/tag/i18n.json
 odm/etc/camera/xiaomi/configs/tag/img_setting_base.webp
 odm/etc/camera/xiaomi/configs/version
+
+# MediaTek Framework
+system_ext/framework/mediatek-framework.jar:system/framework/mediatek-framework.jar;BOOT_JAR
+
