@@ -1,4 +1,4 @@
-# Unpinned blobs from missi-user 15 AP3A.240905.015.A2 OS2.0.201.0.VOJMIXM release-keys
+# Unpinned blobs from missi-user 16 BP2A.250605.031.A3 OS3.0.10.0.WOJMIXM release-keys
 
 odm/etc/camera/102_SummerDay.png
 odm/etc/camera/103_Fantasy.png
@@ -183,11 +183,14 @@ odm/etc/camera/xiaomi/watermark/ic_wp_victoria_harbor.webp
 odm/etc/camera/xiaomi/watermark/ic_wp_west_lake.webp
 odm/etc/camera/xiaomi/watermark/ic_wp_wuhan.webp
 odm/etc/camera/xiaomi/watermark/ic_wp_zhang_jia_jie.webp
-odm/etc/camera/xiaomi/watermark/MiSansVF-Simple-Bold.ttf
-odm/etc/camera/xiaomi/watermark/MiSansVF.ttf
+odm/etc/camera/xiaomi/watermark/MiSansArabicVF.ttf
+odm/etc/camera/xiaomi/watermark/MiSans-Demibold.ttf
+odm/etc/camera/xiaomi/watermark/MiSans-Medium.ttf
+odm/etc/camera/xiaomi/watermark/MiSans-Regular.ttf
+odm/etc/camera/xiaomi/watermark/MiSansTibetanVF.ttf
 odm/etc/camera/xiaomi/watermark/noise_logo.png
-odm/etc/camera/xiaomi/watermark/Roboto-Bold.ttf
-odm/etc/camera/xiaomi/watermark/Roboto.ttf
+odm/etc/camera/xiaomi/watermark/Noto-COLRv1-emojicompat.ttf
+odm/etc/camera/xiaomi/watermark/Oxanium-Medium.ttf
 product/priv-app/MiuiCamera/MiuiCamera.apk:system_ext/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture
 system_ext/lib64/libcamera_algoup_jni.xiaomi.so
 system_ext/lib64/libcamera_mianode_jni.xiaomi.so
