@@ -18,8 +18,8 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/xiaomi/rodin-miuicamera',
-    'vendor/xiaomi/rodin'
+    'device/xiaomi/klee-miuicamera',
+    'vendor/xiaomi/klee'
 ]
 
 def lib_fixup_system_ext_suffix(lib: str, partition: str, *args, **kwargs):
@@ -40,13 +40,10 @@ blob_fixups: blob_fixups_user_type = {
      'system_ext/lib64/libcamera_mianode_jni.xiaomi.so',
      'system_ext/lib64/libcamera_ispinterface_jni.xiaomi.so'): blob_fixup()
         .add_needed('libgui_shim_miuicamera.so'),
-
-    'system_ext/lib64/vendor.mediatek.hardware.camera.isphal-V1-ndk.so': blob_fixup()
-        .replace_needed('android.hardware.graphics.common-V5-ndk.so', 'android.hardware.graphics.common-V7-ndk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'rodin-miuicamera',
+    'klee-miuicamera',
     'xiaomi',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
