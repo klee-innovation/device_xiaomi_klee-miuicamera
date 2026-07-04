@@ -3,3 +3,17 @@ ro.com.google.lens.oem_camera_package=com.android.camera
 ro.product.mod_device=klee_global
 ro.miui.notch=1
 camera.feature.clone=1
+ro.product.camera.livephoto.support=3
+camera.lab.options=1
+ro.miui.ui.version.name=V816
+ro.miui.ui.version.code=816
+
+camera.feature.idcard=1
+camera.feature.documents=1
+camera.feature.magicclone=1
+camera.feature.vlog=1
+camera.feature.movie=1
+camera.feature.pro=1
+camera.feature.slowmotion=1
+camera.feature.supermoon=1
+camera.feature.magictools=1
